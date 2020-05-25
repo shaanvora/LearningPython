@@ -17,7 +17,7 @@ def echo(value):
 def testing(name, place):
     n = name
     p = place
-    return render_template('flasktest.html', name = n, place = p)
+    return render_template('flasktest.html', name=n, place=p)
 
 
 @app.route('/more/')
