@@ -25,7 +25,7 @@ def more():
     kwargs = {}
     kwargs['name'] = request.args.get('name')
     kwargs['place'] = request.args.get('place')
-    kwargs['food'] = request.args.get('food') + 's'
+    kwargs['food'] = request.args.get('food')
     return render_template('flasktest.html', **kwargs)
 
 app.run(port=9999, debug=True)
