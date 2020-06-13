@@ -117,7 +117,7 @@ deck = Deck(d)
 deck.shuffle()
 deck.shuffle()
 
-p = Player('Shaan')
+p = Player('Player')
 d = Player('Dealer')
 
 p.getCard(deck.dealacard())
